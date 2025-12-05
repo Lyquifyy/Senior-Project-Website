@@ -128,16 +128,16 @@ export default function App() {
           <h3>Preliminary Results</h3>
           <div className="results-grid">
             <div className="result">
-              <h4>Emissions Reduction</h4>
-              <p>Carbon-weighted signal timing reduced vehicle emissions by <strong>X%</strong> compared to baseline adaptive signals.</p>
+              <h4>Weighting Algorithm</h4>
+              <p>Basic algorithm designed to compare current traffic demand and CO2 emissions coming from cars per lane.</p>
             </div>
             <div className="result">
-              <h4>Throughput Maintained</h4>
-              <p>System maintained comparable traffic throughput while prioritizing environmentally efficient routes.</p>
+              <h4>CARLA Integration</h4>
+              <p>3d simulation software in sync with SUMO 2d software.</p>
             </div>
             <div className="result">
-              <h4>Scalability</h4>
-              <p>Algorithm scales to handle city-sized networks with thousands of vehicles and intersections in real time.</p>
+              <h4>Web Development</h4>
+              <p>Web Application to display current traffic light data such as CO2.</p>
             </div>
           </div>
         </section>
