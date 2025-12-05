@@ -29,51 +29,6 @@ No additional steps needed—it just works on all devices!
 
 ---
 
-## 🌐 GitHub Pages Deployment
-
-### Step 1: Initialize Git & Push to GitHub
-
-```powershell
-# Initialize git repository
-git init
-git add .
-git commit -m "Initial commit: Carbon Weighted Traffic Control website"
-
-# Add GitHub remote
-git remote add origin https://github.com/YOUR-USERNAME/Senior-Project-Website.git
-git branch -M main
-git push -u origin main
-```
-
-**Replace `YOUR-USERNAME` with your actual GitHub username.**
-
-### Step 2: Enable GitHub Pages
-
-1. Go to your repository on GitHub
-2. Click **Settings** (top right)
-3. Click **Pages** (left sidebar)
-4. Under "Source," select **GitHub Actions** (or Deploy from branch → main → /root)
-5. Save
-
-### Step 3: Automatic Deployment Workflow
-
-The `.github/workflows/deploy.yml` file automatically:
-- Builds your site when you push to `main`
-- Deploys to GitHub Pages
-- **Live URL:** `https://YOUR-USERNAME.github.io/Senior-Project-Website/`
-
-**Your site updates automatically every time you push!**
-
-### Manual Deployment Alternative
-
-If you want to deploy manually:
-```powershell
-npm run build
-# Upload the dist/ folder to GitHub Pages or any static host
-```
-
----
-
 ## 📂 Project Structure
 
 ```
